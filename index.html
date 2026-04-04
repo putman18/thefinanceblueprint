@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Finance Tips for Young Adults | The Finance Blueprint</title>
+  <meta name="description" content="Practical money advice from Jordan Hale. Credit cards, investing, budgeting and side hustles explained simply.">
+  <meta property="og:title" content="Personal Finance Tips for Young Adults">
+  <meta property="og:description" content="Practical money advice from Jordan Hale. Credit cards, investing, budgeting and side hustles explained simply.">
+  <meta property="og:type" content="website">
+  <meta name="author" content="Jordan Hale">
+  <link rel="canonical" href="https://www.thefinanceblueprint.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<div class="disclosure-bar">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+  Advertiser disclosure: Some links on this page are affiliate links. We may earn a commission at no extra cost to you. <a href="/disclaimer/">Learn more</a>
+</div>
+
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">The <span>Finance</span> Blueprint</a>
+    <nav>
+      <a href="/credit-cards/">Credit Cards</a>
+      <a href="/investing/">Investing</a>
+      <a href="/budgeting/">Budgeting</a>
+      <a href="/side-hustles/">Side Hustles</a>
+      <a href="/about/" class="nav-cta">About Jordan</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+      <span id="themeIcon">🌙</span>
+    </button>
+  </div>
+</header>
+
+<script>
+  (function() {
+    var saved = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', saved);
+    if (saved === 'dark') {
+      var icon = document.getElementById('themeIcon');
+      if (icon) icon.textContent = '☀️';
+    }
+  })();
+  function toggleTheme() {
+    var current = document.documentElement.getAttribute('data-theme');
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    document.getElementById('themeIcon').textContent = next === 'dark' ? '☀️' : '🌙';
+  }
+</script>
+
+<!-- Trust bar -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <span>Trusted by 10,000+ readers</span>
+    <div class="trust-logos">
+      <span class="trust-logo">MSN Money</span>
+      <span class="trust-logo">Yahoo Finance</span>
+      <span class="trust-logo">Business Insider</span>
+    </div>
+    <span>Written by Jordan Hale &bull; Updated April 2026</span>
+  </div>
+</div>
+
+<!-- Hero -->
+<div class="hero">
+  <div class="hero-inner">
+    <div>
+      <h1>Build Your Financial <em>Blueprint</em></h1>
+      <p>Clear, practical money advice for young adults. From your first credit card to your first investment - we make it simple.</p>
+
+      <div class="hero-stats">
+        <div>
+          <span class="hero-stat-num">200+</span>
+          <span class="hero-stat-label">In-depth guides</span>
+        </div>
+        <div>
+          <span class="hero-stat-num">10K+</span>
+          <span class="hero-stat-label">Monthly readers</span>
+        </div>
+        <div>
+          <span class="hero-stat-num">100%</span>
+          <span class="hero-stat-label">Free to read</span>
+        </div>
+      </div>
+
+      <a href="/how-to-build-credit-from-scratch/" class="btn">Start with Credit Basics &rarr;</a>
+    </div>
+
+    <div class="hero-card">
+      <div class="hero-card-title">Top Guides This Month</div>
+      <a href="/best-credit-cards-for-beginners/" class="hero-card-link">
+        <span>💳</span> Best Starter Credit Cards
+        <span class="hero-card-arrow">&rarr;</span>
+      </a>
+      <a href="/how-to-build-credit-from-scratch/" class="hero-card-link">
+        <span>📈</span> Build Credit from Zero
+        <span class="hero-card-arrow">&rarr;</span>
+      </a>
+      <a href="/how-to-start-investing-with-100-dollars/" class="hero-card-link">
+        <span>💰</span> Invest Your First $100
+        <span class="hero-card-arrow">&rarr;</span>
+      </a>
+      <a href="/best-budgeting-apps-2026/" class="hero-card-link">
+        <span>📊</span> Best Budgeting Apps 2026
+        <span class="hero-card-arrow">&rarr;</span>
+      </a>
+      <a href="/how-to-pay-off-debt-fast/" class="hero-card-link">
+        <span>🏦</span> Pay Off Debt Fast
+        <span class="hero-card-arrow">&rarr;</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Main content -->
+<div class="container">
+  <section class="section">
+
+    <!-- Category pills -->
+    <div class="pills">
+      <a href="/" class="pill active">All</a>
+      <a href="/credit-cards/" class="pill">Credit Cards</a>
+      <a href="/investing/" class="pill">Investing</a>
+      <a href="/budgeting/" class="pill">Budgeting</a>
+      <a href="/side-hustles/" class="pill">Side Hustles</a>
+      <a href="/debt/" class="pill">Debt Payoff</a>
+    </div>
+
+    <!-- Section header -->
+    <div class="section-header">
+      <div class="section-label">Latest Articles</div>
+      <h2 class="section-title">Practical Guides Updated Monthly</h2>
+      <p class="section-sub">Researched and written by Jordan Hale. No sponsored fluff - just honest advice.</p>
+    </div>
+
+    <!-- Article grid (featured card + regular cards) -->
+    <div class="card-grid">
+      
+    <div class="card card-featured">
+      <div class="card-featured-img">🏦</div>
+      <div class="card-body">
+        <span class="card-tag">Debt Payoff</span>
+        <h3 class="card-title"><a href="/top-10-personal-finance-tips-for-beginners/">Top 10 Personal Finance Tips</a></h3>
+        <p class="card-excerpt">As a young adult, you're likely no stranger to financial stress. You're probably navigating a mix of income, expenses, and debt, all while trying to build a...</p>
+        <div class="card-footer">
+          <span>Apr 03, 2026 &bull; 8 min read</span>
+          <a href="/top-10-personal-finance-tips-for-beginners/" class="card-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <span class="card-tag">Investing</span>
+        <h3 class="card-title"><a href="/how-to-start-investing-with-100-dollars/">How to Start Investing with 100 Dollars</a></h3>
+        <p class="card-excerpt">You're probably no stranger to the idea that investing is a key part of building wealth over time. The problem is, it can be intimidating to get started,...</p>
+        <div class="card-footer">
+          <span>Apr 03, 2026 &bull; 10 min read</span>
+          <a href="/how-to-start-investing-with-100-dollars/" class="card-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <span class="card-tag">Debt Payoff</span>
+        <h3 class="card-title"><a href="/how-to-pay-off-student-loans-fast/">How to Pay Off Student Loans Fast</a></h3>
+        <p class="card-excerpt">How to Pay Off Student Loans Fast Paying off student loans can be a daunting task, but with the right strategy, you can tackle your debt and start building a...</p>
+        <div class="card-footer">
+          <span>Apr 04, 2026 &bull; 6 min read</span>
+          <a href="/how-to-pay-off-student-loans-fast/" class="card-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <span class="card-tag">Credit Cards</span>
+        <h3 class="card-title"><a href="/how-to-build-credit-from-scratch/">How to Build Credit</a></h3>
+        <p class="card-excerpt">As a young adult, you're likely no stranger to the concept of credit. You've probably heard that having good credit is important, but maybe you're not entirely...</p>
+        <div class="card-footer">
+          <span>Apr 03, 2026 &bull; 8 min read</span>
+          <a href="/how-to-build-credit-from-scratch/" class="card-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <span class="card-tag">Budgeting</span>
+        <h3 class="card-title"><a href="/how-to-budget-money-for-beginners-free/">How to Budget Money for Beginners Free</a></h3>
+        <p class="card-excerpt">As a young adult, you're likely no stranger to living on a tight budget. You might be working part-time, studying, or just starting out in your career, and...</p>
+        <div class="card-footer">
+          <span>Apr 03, 2026 &bull; 8 min read</span>
+          <a href="/how-to-budget-money-for-beginners-free/" class="card-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <span class="card-tag">Budgeting</span>
+        <h3 class="card-title"><a href="/best-savings-accounts-uk-2026/">Best Savings Accounts UK 2026</a></h3>
+        <p class="card-excerpt">As you start your financial journey, you're probably looking for the best way to save your money. You want an account that will help your savings grow, but...</p>
+        <div class="card-footer">
+          <span>Apr 03, 2026 &bull; 9 min read</span>
+          <a href="/best-savings-accounts-uk-2026/" class="card-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <span class="card-tag">Credit Cards</span>
+        <h3 class="card-title"><a href="/best-credit-cards-for-beginners/">Best Credit Cards for Beginners</a></h3>
+        <p class="card-excerpt">As a young adult, you're likely to encounter a multitude of financial decisions, and one of the most important ones is choosing the right credit card. With so...</p>
+        <div class="card-footer">
+          <span>Apr 03, 2026 &bull; 6 min read</span>
+          <a href="/best-credit-cards-for-beginners/" class="card-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <span class="card-tag">Budgeting</span>
+        <h3 class="card-title"><a href="/best-budgeting-apps-2026/">Best Budgeting Apps 2026</a></h3>
+        <p class="card-excerpt">As you navigate the world of personal finance, you're likely to encounter a multitude of challenges, from tracking expenses to creating a realistic budget....</p>
+        <div class="card-footer">
+          <span>Apr 03, 2026 &bull; 6 min read</span>
+          <a href="/best-budgeting-apps-2026/" class="card-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <span class="card-tag">Investing</span>
+        <h3 class="card-title"><a href="/best-brokerage-accounts-for-beginners/">Best Brokerage Accounts for Beginners: A Comprehensive Guide</a></h3>
+        <p class="card-excerpt">When it comes to investing, choosing the right brokerage account can be overwhelming, especially for beginners. You're likely searching for the best brokerage...</p>
+        <div class="card-footer">
+          <span>Apr 04, 2026 &bull; 4 min read</span>
+          <a href="/best-brokerage-accounts-for-beginners/" class="card-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!-- Newsletter -->
+  <div class="newsletter">
+    <h2>Get Your Free Money Checklist</h2>
+    <p>Join 10,000+ readers getting weekly finance tips straight to their inbox. No spam, ever.</p>
+    <form class="newsletter-form" onsubmit="return false;">
+      <input type="email" placeholder="Enter your email address">
+      <button type="submit" class="btn">Subscribe Free</button>
+    </form>
+    <p class="newsletter-note">Unsubscribe anytime. We respect your privacy.</p>
+  </div>
+
+  <!-- Bottom categories -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-label">Browse by Topic</div>
+      <h2 class="section-title">Find Exactly What You Need</h2>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-body" style="text-align:center; padding: 36px 24px;">
+          <div style="font-size:52px; margin-bottom:16px;">💳</div>
+          <h3 class="card-title"><a href="/credit-cards/">Credit Cards</a></h3>
+          <p class="card-excerpt">Find the best card for your situation. Cash back, travel rewards, or building credit from scratch.</p>
+          <a href="/credit-cards/" class="card-read-more">Browse guides &rarr;</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body" style="text-align:center; padding: 36px 24px;">
+          <div style="font-size:52px; margin-bottom:16px;">📈</div>
+          <h3 class="card-title"><a href="/investing/">Investing</a></h3>
+          <p class="card-excerpt">Start investing with as little as $100. Index funds, Roth IRA, and brokerage accounts explained simply.</p>
+          <a href="/investing/" class="card-read-more">Browse guides &rarr;</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body" style="text-align:center; padding: 36px 24px;">
+          <div style="font-size:52px; margin-bottom:16px;">💰</div>
+          <h3 class="card-title"><a href="/side-hustles/">Side Hustles</a></h3>
+          <p class="card-excerpt">Real ways to earn extra money in 2026. From freelancing to passive income streams that actually work.</p>
+          <a href="/side-hustles/" class="card-read-more">Browse guides &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- Mobile sticky CTA bar -->
+<div class="sticky-cta-bar" id="stickyCta">
+  <div>
+    <div class="sticky-cta-text">Get the free money checklist</div>
+    <div class="sticky-cta-sub">Join 10,000+ readers</div>
+  </div>
+  <a href="#newsletter" class="btn btn-sm">Subscribe</a>
+  <button class="sticky-cta-dismiss" onclick="document.getElementById('stickyCta').style.display='none';">&times;</button>
+</div>
+
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <a href="/" class="footer-logo">The <span>Finance</span> Blueprint</a>
+        <p class="footer-desc">Practical money advice for young adults. No jargon, no fluff - just clear steps to build wealth and take control of your finances.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Topics</h4>
+        <ul>
+          <li><a href="/credit-cards/">Credit Cards</a></li>
+          <li><a href="/investing/">Investing</a></li>
+          <li><a href="/budgeting/">Budgeting</a></li>
+          <li><a href="/side-hustles/">Side Hustles</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/about/">About Jordan</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/disclaimer/">Disclaimer</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Popular</h4>
+        <ul>
+          <li><a href="/best-credit-cards-for-beginners/">Best Starter Cards</a></li>
+          <li><a href="/how-to-build-credit-from-scratch/">Build Credit</a></li>
+          <li><a href="/how-to-start-investing-with-100-dollars/">Start Investing</a></li>
+          <li><a href="/best-budgeting-apps-2026/">Budget Guide</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 The Finance Blueprint. All rights reserved.</span>
+      <span>Written by Jordan Hale</span>
+    </div>
+    <p class="footer-disclaimer">Disclaimer: The Finance Blueprint is for informational purposes only and does not constitute financial advice. Some links on this site are affiliate links - we may earn a commission at no extra cost to you. Always do your own research before making financial decisions.</p>
+  </div>
+</footer>
+
+</body>
+</html>
